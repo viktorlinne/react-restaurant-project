@@ -18,9 +18,24 @@ const Navbar = () => {
                     <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
                         <Link to={"startsida"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Startsida</Link>
-                        <div></div>
-                        <Link to={"meny"} spy={true} smooth={true} duration={500}
-                              className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
+                        <div className="relative group">
+                            <div className="flex items-center gap-1">
+                                <Link to={"meny"} spy={true} smooth={true} duration={500}
+                                      className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
+                            </div>
+                            <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
+                                <li>
+                                    <Link to={"meny"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Pizzor</Link>
+                                </li>
+                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Rullar</Link></li>
+
+                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Sallader</Link>
+                                </li>
+                            </ul>
+                        </div>
                         <Link to={"om-oss"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Om oss</Link>
                         <Link to={"hitta-oss"} spy={true} smooth={true} duration={500}
