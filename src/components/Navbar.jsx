@@ -24,12 +24,14 @@ const Navbar = () => {
                                       className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
                             </div>
                             <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
-                                <li>
-                                    <Link to={"meny"} spy={true} smooth={true} duration={500}
+
+                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Pizzor</Link>
                                 </li>
+
                                 <li><Link to={"meny"} spy={true} smooth={true} duration={500}
-                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Rullar</Link></li>
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Rullar</Link>
+                                </li>
 
                                 <li><Link to={"meny"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Sallader</Link>
@@ -38,8 +40,10 @@ const Navbar = () => {
                         </div>
                         <Link to={"om-oss"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Om oss</Link>
+
                         <Link to={"hitta-oss"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Hitta Oss</Link>
+
                         <Link to={"recensioner"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Recensioner</Link>
 
