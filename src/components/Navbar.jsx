@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from 'react-scroll'
-import {BiRestaurant} from "react-icons/bi"
+import {BiRestaurant} from "react-icons/bi" //Byt till LaMamas logga
 
 const Navbar = () => {
     return (
