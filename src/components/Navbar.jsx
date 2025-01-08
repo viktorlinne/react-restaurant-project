@@ -1,9 +1,22 @@
-import React from "react"
+import React, {useState} from "react"
 import {Link} from 'react-scroll'
 import Button from "../layouts/Button"
 import {BiRestaurant} from "react-icons/bi" //Byt till LaMamas logga
+import {AiOutlineClose} from "react-icons/ai";
+import {AiOutlineMenuUnfold} from "react-icons/ai";
+import {BiChevronDown} from "react-icons/bi";
 
 const Navbar = () => {
+
+    const [menu, setMenu] = useState(false);
+
+    const handleChange = () => {
+        setMenu(!menu);
+    };
+
+    const closeMenu = () => {
+        setMenu(false);
+    }
     return (
         <div className="fixed w-full">
             <div>
@@ -22,18 +35,21 @@ const Navbar = () => {
                             <div className="flex items-center gap-1">
                                 <Link to={"meny"} spy={true} smooth={true} duration={500}
                                       className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
+
+                                <BiChevronDown className={"cursor-pointer"} size={25} />
+
                             </div>
                             <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
 
-                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
+                                <li><Link to={"pizzor"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Pizzor</Link>
                                 </li>
 
-                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
+                                <li><Link to={"rullar"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Rullar</Link>
                                 </li>
 
-                                <li><Link to={"meny"} spy={true} smooth={true} duration={500}
+                                <li><Link to={"sallader"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Sallader</Link>
                                 </li>
                             </ul>
@@ -50,6 +66,33 @@ const Navbar = () => {
                         <Button title={"Beställ Online"}/>
 
                     </nav>
+
+                    <div className={"md:hidden flex items-center"}>
+                        {menu
+                            ?
+                            (<AiOutlineClose size={25} onClick={handleChange}/>)
+                            :
+                            (<AiOutlineMenuUnfold size={25} onClick={handleChange}/>)
+                        }
+                    </div>
+                </div>
+                <div
+                    className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+
+                    <Link to={"meny"} spy={true} smooth={true} duration={500}
+                          className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
+
+                    <Link to={"om-oss"} spy={true} smooth={true} duration={500}
+                          className={"hover:text-brightColor transition-all cursor-pointer"}>Om oss</Link>
+
+                    <Link to={"hitta-oss"} spy={true} smooth={true} duration={500}
+                          className={"hover:text-brightColor transition-all cursor-pointer"}>Hitta Oss</Link>
+
+                    <Link to={"recensioner"} spy={true} smooth={true} duration={500}
+                          className={"hover:text-brightColor transition-all cursor-pointer"}>Recensioner</Link>
+
+                    <Button title={"Beställ Online"}/>
+
                 </div>
             </div>
         </div>
