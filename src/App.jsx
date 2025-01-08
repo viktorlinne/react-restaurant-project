@@ -14,6 +14,10 @@ function App() {
                     <div id={"home"}>
                         <Home/>
                     </div>
+
+                    <div id={"dishes"}>
+
+                    </div>
                 </main>
             </div>
         </>
