@@ -22,12 +22,12 @@ function App() {
                         <Dishes/>
                     </div>
 
-                    <div id={"about"}>
-                        <About/>
-                    </div>
-
                     <div id={"menu"}>
                         <Menu/>
+                    </div>
+
+                    <div id={"about"}>
+                        <About/>
                     </div>
 
                     <div id={"reviews"}>

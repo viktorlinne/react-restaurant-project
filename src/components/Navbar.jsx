@@ -60,7 +60,7 @@ const Navbar = () => {
                         <Link to={"hitta-oss"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Hitta Oss</Link>
 
-                        <Link to={"review"} spy={true} smooth={true} duration={500}
+                        <Link to={"reviews"} spy={true} smooth={true} duration={500}
                               className={"hover:text-brightColor transition-all cursor-pointer"}>Recensioner</Link>
 
                         <Button title={"Beställ Online"}/>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     <Link to={"hitta-oss"} spy={true} smooth={true} duration={500}
                           className={"hover:text-brightColor transition-all cursor-pointer"}>Hitta Oss</Link>
 
-                    <Link to={"review"} spy={true} smooth={true} duration={500}
+                    <Link to={"reviews"} spy={true} smooth={true} duration={500}
                           className={"hover:text-brightColor transition-all cursor-pointer"}>Recensioner</Link>
 
                     <Button title={"Beställ Online"}/>
