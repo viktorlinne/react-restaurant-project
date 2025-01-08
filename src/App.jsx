@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Dishes from './components/Dishes'
 import About from "./components/About.jsx";
 import Menu from './components/Menu'
+import Review from "./components/Review.jsx";
 
 function App() {
     return (
@@ -26,6 +27,10 @@ function App() {
 
                     <div id={"menu"}>
                         <Menu/>
+                    </div>
+
+                    <div id={"reviews"}>
+                        <Review/>
                     </div>
                 </main>
             </div>
