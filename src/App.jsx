@@ -8,6 +8,12 @@ function App() {
     <>
      <div>
          <Navbar />
+
+         <main>
+             <div>
+
+             </div>
+         </main>
      </div>
     </>
   )
