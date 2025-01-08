@@ -22,6 +22,10 @@ function App() {
                     <div id={"about"}>
                         <About/>
                     </div>
+
+                    <div id={"menu"}>
+                        <Menu/>
+                    </div>
                 </main>
             </div>
         </>
