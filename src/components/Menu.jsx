@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/dish-img.jpg'
+import img from '../assets/pizza.jpg'
 import DishesCard from "../layouts/DishesCard.jsx";
 
 const Menu = () => {
@@ -10,6 +10,33 @@ const Menu = () => {
             </h1>
 
             <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
                 <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
                 <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
                 <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
