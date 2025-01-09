@@ -11,9 +11,10 @@ function App() {
     return (
         <>
             <div>
-                <Navbar/>
 
-                <main>
+                <Navbar />
+
+                <main className={"bg-background"}>
                     <div id={"home"}>
                         <Home/>
                     </div>
