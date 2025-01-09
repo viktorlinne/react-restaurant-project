@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className={"font-medium text-xl pb-4 mt-4"}>
 
                     <nav className={"flex flex-col gap-2"}>
-                        <a className={"hover:text-button transition-all cursor-pointer"} href="/">Startsida</a>
+                        <a className={"hover:text-button transition-all cursor-pointer"}>Startsida</a>
                         {/* (Other links) */}
                     </nav>
 
@@ -23,7 +23,7 @@ const Footer = () => {
 
                 <p className={"text-center py-4 mt-4"}>
                     @Copyright utvecklad av <span className={"text-button"}>Viktor Linné</span> | All Rights
-                    Reserved {/* Add link if needed */}
+                    Reserved {/* Lägg till länk till egen sida!!! */}
                 </p>
 
             </div>
