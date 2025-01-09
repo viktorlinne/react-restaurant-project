@@ -4,7 +4,7 @@ import review from '../assets/review.jpg'
 
 const Review = () => {
     return (
-        <div className={"min-h-screen flex flex-col items-center justify-center md:px-32 px-5"}>
+        <div className={"bg-background min-h-screen flex flex-col items-center justify-center md:px-32 px-5"}>
             <h1 className={"text-4xl fontsemibold text-center lg:pt-16 pt-24 pb-10"}>
                 Våra Kunders Recensioner!
             </h1>

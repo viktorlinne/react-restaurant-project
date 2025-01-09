@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const CategoriesCard = (props) => {
     return (
-        <div className={"w-full lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg"}>
+        <div className={"bg-white w-full lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg"}>
 
             <div className="flex items-center justify-center">
                 <img
@@ -26,8 +26,8 @@ const CategoriesCard = (props) => {
                     className="cursor-pointer"
                 >
                     <button
-                        className="px-6 py-1 border-2 border-brightColor text-brightColor hover:bg-brightColor
-                                   hover:border-brightColor hover:text-white transition-all rounded-full"
+                        className="px-6 py-1 border-2 border-button text-button hover:bg-white
+                                   hover:border-button text-black hover:text-button transition-all rounded-full"
                     >
                         Hoppa till {props.title}
                     </button>
