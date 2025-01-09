@@ -31,10 +31,6 @@ function App() {
                         <About/>
                     </div>
 
-                    <div id={"find-us"}>
-                        <FindUs/>
-                    </div>
-
                     <div id={"reviews"}>
                         <Review/>
                     </div>
