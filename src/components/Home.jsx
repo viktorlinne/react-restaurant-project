@@ -15,7 +15,7 @@ const Home = () => {
                     perspiciatis quos rem rerum ut!
                 </p>
                 <div className={"lg:pl-44"}>
-                    <Button title={"Beställ Nu"}/>
+                    <Button title={"Beställ Online"}/>
                 </div>
             </div>
         </div>
