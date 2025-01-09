@@ -1,45 +1,125 @@
 import React from 'react'
-import img from '../assets/pizza.jpg'
 import DishesCard from "../layouts/DishesCard.jsx";
+import pizzaimg from "../assets/pizza.jpg"
+import kebabimg from "../assets/kebab.jpg"
+import hamburgareimg from "/src/assets/hamburgare.jpg";
+import burritoimg from "/src/assets/burrito.jpg";
+import pastaimg from "/src/assets/pasta.jpg";
+import salladimg from "/src/assets/sallad.jpg";
+import såsimg from "/src/assets/sås.jpg";
+import tillbehörimg from "/src/assets/tillbehör.webp";
+import dryckimg from "/src/assets/dryck.webp";
 
 const Menu = () => {
     return (
         <div className={"min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
             <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
-                Vi Rekommenderar:
+                Pizzor
             </h1>
 
             <div className={"flex flex-wrap gap-8 justify-center"}>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
-                <DishesCard img={img} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Kebabrätter
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={kebabimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Hamburgare
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={hamburgareimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Mexikanska Rätter
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={burritoimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Pastarätter
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={pastaimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Sallader
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={salladimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Såser
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={såsimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Tillbehör
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={tillbehörimg} title={"Pizza"} price={"100 kr"}/>
+            </div>
+
+            <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                Dryckerdryckimg
+            </h1>
+            <div className={"flex flex-wrap gap-8 justify-center"}>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
+                <DishesCard img={dryckimg} title={"Pizza"} price={"100 kr"}/>
             </div>
         </div>
     )
