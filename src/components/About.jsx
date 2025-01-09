@@ -3,7 +3,7 @@ import about from '../assets/about.png';
 
 const About = () => {
     return (
-        <div className={"min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
+        <div className={"flex flex-col justify-center items-center lg:px-32 px-5"}>
 
             {/* Heading Section */}
             <div className={"mt-4"}>
