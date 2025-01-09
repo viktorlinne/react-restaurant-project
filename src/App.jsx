@@ -14,31 +14,36 @@ function App() {
 
                 <Navbar />
 
-                <main className={"bg-background"}>
-                    <div id={"home"}>
-                        <Home/>
-                    </div>
+                    <main className={"bg-background"}>
 
-                    <div id={"dishes"}>
-                        <Dishes/>
-                    </div>
+                        <div>
+                            <div id={"home"}>
+                                <Home/>
+                            </div>
 
-                    <div id={"menu"}>
-                        <Menu/>
-                    </div>
+                            <div id={"dishes"}>
+                                <Dishes/>
+                            </div>
 
-                    <div id={"about"}>
-                        <About/>
-                    </div>
+                            <div id={"menu"}>
+                                <Menu/>
+                            </div>
 
-                    <div id={"reviews"}>
-                        <Review/>
-                    </div>
+                            <div id={"about"}>
+                                <About/>
+                            </div>
 
-                    <div>
-                        <Footer/>
-                    </div>
-                </main>
+                            <div id={"reviews"}>
+                                <Review/>
+                            </div>
+
+                            <div>
+                                <Footer/>
+                            </div>
+                        </div>
+
+                    </main>
+
             </div>
         </>
     )
