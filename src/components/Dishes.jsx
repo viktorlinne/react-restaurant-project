@@ -14,17 +14,17 @@ import dryckimg from "/src/assets/dryck.webp";
 const Dishes = () => {
     return (
         <div className={"bg-background min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
-            <h1 id="menu" className={"text-4xl font-semibold text-center pt-24 pb-10"}>
+            <h1 id="menu" className={"text-4xl font-semibold text-center pt-16 pb-10"}>
                 Vårat Utbud:
             </h1>
 
-            <div className={"flex flex-row flex-wrap gap-8 justify-center"}>
-                <CategoriesCard to="pizzor" img={pizzaimg} title={"Pizzor"} />
-                <CategoriesCard to="kebabrätter" img={kebabimg} title={"Kebabrätter"} />
-                <CategoriesCard to="hamburgare" img={hamburgareimg} title={"Hamburgare"} />
-                <CategoriesCard to="tex-mex" img={burritoimg} title={"Tex Mex"} />
-                <CategoriesCard to="pastarätter" img={pastaimg} title={"Pastarätter"} />
-                <CategoriesCard to="sallader" img={salladimg} title={"Sallader"} />
+            <div className={"flex flex-row flex-wrap gap-8 justify-center mt-4"}>
+                <CategoriesCard to="pizzor" img={pizzaimg} title={"Pizzor"}/>
+                <CategoriesCard to="kebabrätter" img={kebabimg} title={"Kebabrätter"}/>
+                <CategoriesCard to="hamburgare" img={hamburgareimg} title={"Hamburgare"}/>
+                <CategoriesCard to="tex-mex" img={burritoimg} title={"Tex Mex"}/>
+                <CategoriesCard to="pastarätter" img={pastaimg} title={"Pastarätter"}/>
+                <CategoriesCard to="sallader" img={salladimg} title={"Sallader"}/>
                 <CategoriesCard to="såser" img={såsimg} title={"Såser"} />
                 <CategoriesCard to="tillbehör" img={tillbehörimg} title={"Tillbehör"} />
                 <CategoriesCard to="drycker" img={dryckimg} title={"Drycker"} />
@@ -35,3 +35,5 @@ const Dishes = () => {
 };
 
 export default Dishes;
+
+

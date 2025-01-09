@@ -14,11 +14,12 @@ const Menu = () => {
     return (
         <div className={"bg-background"}>
             <div id="pizzor" className={"min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
+
                 <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Pizzor
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
                     <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
                     <DishesCard img={pizzaimg} title={"Pizza"} price={"100 kr"}/>
@@ -30,7 +31,8 @@ const Menu = () => {
                 <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Kebabrätter
                 </h1>
-                <div id="kebabrätter" className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={kebabimg} title={"Kebabrätter"} price={"100 kr"}/>
                     <DishesCard img={kebabimg} title={"Kebabrätter"} price={"100 kr"}/>
                     <DishesCard img={kebabimg} title={"Kebabrätter"} price={"100 kr"}/>
@@ -42,7 +44,8 @@ const Menu = () => {
                 <h1 id="hamburgare" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Hamburgare
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={hamburgareimg} title={"Hamburgare"} price={"100 kr"}/>
                     <DishesCard img={hamburgareimg} title={"Hamburgare"} price={"100 kr"}/>
                     <DishesCard img={hamburgareimg} title={"Hamburgare"} price={"100 kr"}/>
@@ -54,7 +57,8 @@ const Menu = () => {
                 <h1 id="tex-mex" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Tex Mex
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={burritoimg} title={"Tex Mex"} price={"100 kr"}/>
                     <DishesCard img={burritoimg} title={"Tex Mex"} price={"100 kr"}/>
                     <DishesCard img={burritoimg} title={"Tex Mex"} price={"100 kr"}/>
@@ -66,7 +70,8 @@ const Menu = () => {
                 <h1 id="pastarätter" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Pastarätter
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={pastaimg} title={"Pastarätter"} price={"100 kr"}/>
                     <DishesCard img={pastaimg} title={"Pastarätter"} price={"100 kr"}/>
                     <DishesCard img={pastaimg} title={"Pastarätter"} price={"100 kr"}/>
@@ -78,7 +83,8 @@ const Menu = () => {
                 <h1 id="sallader" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Sallader
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={salladimg} title={"Sallader"} price={"100 kr"}/>
                     <DishesCard img={salladimg} title={"Sallader"} price={"100 kr"}/>
                     <DishesCard img={salladimg} title={"Sallader"} price={"100 kr"}/>
@@ -90,7 +96,8 @@ const Menu = () => {
                 <h1 id="såser" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Såser
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={såsimg} title={"Såser"} price={"100 kr"}/>
                     <DishesCard img={såsimg} title={"Såser"} price={"100 kr"}/>
                     <DishesCard img={såsimg} title={"Såser"} price={"100 kr"}/>
@@ -102,7 +109,8 @@ const Menu = () => {
                 <h1 id="tillbehör" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Tillbehör
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={tillbehörimg} title={"Tillbehör"} price={"100 kr"}/>
                     <DishesCard img={tillbehörimg} title={"Tillbehör"} price={"100 kr"}/>
                     <DishesCard img={tillbehörimg} title={"Tillbehör"} price={"100 kr"}/>
@@ -114,7 +122,8 @@ const Menu = () => {
                 <h1 id="drycker" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Drycker
                 </h1>
-                <div className={"flex flex-wrap gap-8 justify-center"}>
+
+                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
                     <DishesCard img={dryckimg} title={"Drycker"} price={"100 kr"}/>
                     <DishesCard img={dryckimg} title={"Drycker"} price={"100 kr"}/>
                     <DishesCard img={dryckimg} title={"Drycker"} price={"100 kr"}/>
