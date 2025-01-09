@@ -12,7 +12,7 @@ import dryckimg from "/src/assets/dryck.webp";
 
 const Menu = () => {
     return (
-        <div id="pizza" className={"min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
+        <div id="pizzor" className={"min-h-screen flex flex-col justify-center items-center lg:px-32 px-5"}>
             <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                 Pizzor
             </h1>

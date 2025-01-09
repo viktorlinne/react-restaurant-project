@@ -41,7 +41,7 @@ const Navbar = () => {
                             </div>
                             <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
 
-                                <li><Link to={"pizza"} spy={true} smooth={true} duration={500}
+                                <li><Link to={"pizzor"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Pizza</Link>
                                 </li>
 
@@ -102,7 +102,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div
-                    className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+                    className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black 
+                                          text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full 
+                                          h-fit transition-transform duration-300`}>
 
                     <Link to={"menu"} spy={true} smooth={true} duration={500}
                           className={"hover:text-brightColor transition-all cursor-pointer"}>Meny</Link>
