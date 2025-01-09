@@ -6,7 +6,6 @@ import About from "./components/About.jsx";
 import Menu from './components/Menu'
 import Review from "./components/Review.jsx";
 import Footer from "./components/Footer.jsx";
-import FindUs from "./components/FindUs.jsx";
 
 function App() {
     return (
