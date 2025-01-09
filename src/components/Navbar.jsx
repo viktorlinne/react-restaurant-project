@@ -41,17 +41,42 @@ const Navbar = () => {
                             </div>
                             <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
 
-                                <li><Link to={"pizzor"} spy={true} smooth={true} duration={500}
-                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Pizzor</Link>
+                                <li><Link to={"pizza"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Pizza</Link>
                                 </li>
 
-                                <li><Link to={"rullar"} spy={true} smooth={true} duration={500}
-                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Rullar</Link>
+                                <li><Link to={"kebabrätter"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Kebabrätter</Link>
+                                </li>
+
+                                <li><Link to={"hamburgare"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Hamburgare</Link>
+                                </li>
+
+                                <li><Link to={"tex-mex"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Tex Mex</Link>
+                                </li>
+
+                                <li><Link to={"pastarätter"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Pastarätter</Link>
                                 </li>
 
                                 <li><Link to={"sallader"} spy={true} smooth={true} duration={500}
                                           className={"hover:text-brightColor transition-all cursor-pointer"}>Sallader</Link>
                                 </li>
+
+                                <li><Link to={"såser"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Såser</Link>
+                                </li>
+
+                                <li><Link to={"tillbehör"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Tillbehör</Link>
+                                </li>
+
+                                <li><Link to={"drycker"} spy={true} smooth={true} duration={500}
+                                          className={"hover:text-brightColor transition-all cursor-pointer"}>Drycker</Link>
+                                </li>
+
                             </ul>
                         </div>
                         <Link to={"about"} spy={true} smooth={true} duration={500}
