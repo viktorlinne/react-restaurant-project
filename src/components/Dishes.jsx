@@ -28,6 +28,7 @@ const Dishes = () => {
 
     return (
         <div className={"flex flex-col justify-center items-center lg:px-32 px-5"}>
+
             <h1 id="menu" className={"text-4xl font-semibold text-center pt-16 pb-10"}>
                 Vårat Utbud:
             </h1>
@@ -39,7 +40,6 @@ const Dishes = () => {
                 })}
 
             </div>
-
         </div>
     )
 };
