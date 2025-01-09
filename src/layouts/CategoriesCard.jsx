@@ -26,8 +26,8 @@ const CategoriesCard = (props) => {
                     className="cursor-pointer"
                 >
                     <button
-                        className="px-6 py-1 border-2 text-black border-button  hover:bg-white
-                                   hover:border-button text-black hover:text-button transition-all rounded-full"
+                        className="px-6 py-1 border-2 text-black border-button
+                                   hover:border-button  hover:text-button transition-all rounded-full"
                     >
                         Hoppa till {props.title}
                     </button>
