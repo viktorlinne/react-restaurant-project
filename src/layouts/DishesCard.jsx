@@ -16,12 +16,14 @@ const DishesCard = (props) => {
             </div>
             <div className={"space-y-4"}>
 
-                <h3 className={"font-semibold text-center text-xl pt-6"}>{props.title}</h3>
+                <h3 className={"font-bold text-center text-xl pt-6"}>{props.title}</h3>
 
             </div>
+
+            <h3 className={"font-semibold text-center text-lg"}>{props.price}</h3>
+
             <div className={"flex flex-row items-center justify-center gap-4"}>
 
-                <h3 className={"font-semibold text-lg"}>{props.price}</h3>
 
                 <Link
                     spy={true}
