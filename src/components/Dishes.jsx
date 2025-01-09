@@ -1,6 +1,5 @@
 import React from 'react';
 import DishesCard from "/src/layouts/DishesCard.jsx";
-import {Link} from 'react-scroll';
 import pizzaimg from "/src/assets/pizza.jpg";
 import kebabimg from "/src/assets/kebab.jpg";
 import hamburgareimg from "/src/assets/hamburgare.jpg";
