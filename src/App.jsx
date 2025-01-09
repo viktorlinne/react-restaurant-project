@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Dishes from './components/Dishes'
+import Dishes from './components/Dishes.jsx'
 import About from "./components/About.jsx";
 import Menu from './components/Menu'
 import Review from "./components/Review.jsx";
@@ -11,9 +11,10 @@ function App() {
     return (
         <>
             <div>
-                <Navbar/>
 
-                <main>
+                <Navbar />
+
+                <main className={"bg-background"}>
                     <div id={"home"}>
                         <Home/>
                     </div>
