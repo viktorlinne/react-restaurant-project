@@ -4,8 +4,8 @@ const Button = (props) => {
     return (
         <div>
             <button
-                className="px-6 py-1 border-2 border-brightColor text-brightColor hover:bg-brightColor
-                           hover:border-brightColor hover:text-white transition-all rounded-full">
+                className="px-6 py-1 border-2 border-button text-blackhover:bg-button
+                           hover:border-button hover:text-button transition-all rounded-full">
                 {props.title}
             </button>
         </div>

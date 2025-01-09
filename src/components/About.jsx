@@ -3,9 +3,9 @@ import about from '../assets/about.png'
 
 const About = () => {
     return (
-        <div className={"min-h-screen flex flex-col lg:flex-col justify-center items-center lg:px-32 px-5"}>
+        <div className={" bg-background min-h-screen flex flex-col lg:flex-col justify-center items-center lg:px-32 px-5"}>
 
-            <div className={"space-y-4 lg:pt-14"}>
+            <div className={""}>
                 <h1 className={"font-semibold text-4xl text-center"}>
                     Varför Välja Oss?
                 </h1>

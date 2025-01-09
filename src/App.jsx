@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import Menu from './components/Menu'
 import Review from "./components/Review.jsx";
 import Footer from "./components/Footer.jsx";
+import FindUs from "./components/FindUs.jsx";
 
 function App() {
     return (
@@ -28,6 +29,10 @@ function App() {
 
                     <div id={"about"}>
                         <About/>
+                    </div>
+
+                    <div id={"find-us"}>
+                        <FindUs/>
                     </div>
 
                     <div id={"reviews"}>
