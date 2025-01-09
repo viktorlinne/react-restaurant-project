@@ -14,9 +14,6 @@ const Home = () => {
                     Aliquam aliquid blanditiis commodi cupiditate, eveniet hic illo ipsa molestias neque nesciunt
                     perspiciatis quos rem rerum ut!
                 </p>
-                <div className={"lg:pl-44"}>
-                    <Button title={"Beställ Online"}/>
-                </div>
             </div>
         </div>
     )
