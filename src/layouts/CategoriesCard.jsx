@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const DishesCard = (props) => {
+const CategoriesCard = (props) => {
     return (
         <div className={"w-full lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg"}>
 
@@ -19,6 +19,7 @@ const DishesCard = (props) => {
                 <h3 className={"font-semibold text-lg"}>{props.price}</h3>
 
                 <Link
+                    to={props.to}
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -28,7 +29,7 @@ const DishesCard = (props) => {
                         className="px-6 py-1 border-2 border-brightColor text-brightColor hover:bg-brightColor
                                    hover:border-brightColor hover:text-white transition-all rounded-full"
                     >
-                        Lägg till i varukorg
+                        Hoppa till {props.title}
                     </button>
                 </Link>
             </div>
@@ -36,4 +37,4 @@ const DishesCard = (props) => {
     );
 };
 
-export default DishesCard;
+export default CategoriesCard;
