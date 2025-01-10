@@ -5,7 +5,7 @@ import review from '../assets/review.jpg'
 
 const Review = () => {
     const reviews = [
-
+        {}
     ]
     return (
         <div className={"flex flex-col items-center justify-center lg:px-32 px-5"}>
