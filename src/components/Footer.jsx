@@ -6,12 +6,15 @@ const Footer = () => {
         <div className={"bg-nav text-black mt-8"}>
             <div className={"flex flex-col md:flex-row justify-between p-8 lg:px-32 px-5"}>
                 <div className={"w-full md:w-1/4 mt-4"}>
+
                     <h1 className={"font-semibold text-xl pb-4"}>
                         La Mamas Pizzeria
                     </h1>
+
                     <p className={"font-medium"}>
                         Välkommna att njuta av en riktig pizza bakad i Kungsbackas riktigt gedigna pizzerior
                     </p>
+
                 </div>
                 <div className={"font-medium text-xl pb-4 mt-4"}>
 
@@ -44,8 +47,6 @@ const Footer = () => {
                     </nav>
 
                 </div>
-
-
             </div>
 
             <p className={"text-center font-medium mt-4 p-4"}>

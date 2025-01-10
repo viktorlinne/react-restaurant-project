@@ -6,11 +6,13 @@ const CategoriesCard = (props) => {
         <div className={"bg-white w-full lg:w-1/4 p-5 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg"}>
 
             <div className="flex items-center justify-center">
+
                 <img
                     className="rounded-xl w-full h-40 object-cover"
                     src={props.img}
                     alt="example of food"
                 />
+
             </div>
             <div className={"space-y-4"}>
 
@@ -26,15 +28,14 @@ const CategoriesCard = (props) => {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
-                >
-                    <button
-                        className="px-6 py-1 border-2 text-black border-button
-                                   hover:border-button  hover:text-button transition-all rounded-full"
-                    >
+                    className="cursor-pointer">
+
+                    <button className="px-6 py-1 border-2 text-black border-button hover:border-button  hover:text-button transition-all rounded-full">
                         Hoppa till {props.title}
                     </button>
+
                 </Link>
+
             </div>
         </div>
     );
