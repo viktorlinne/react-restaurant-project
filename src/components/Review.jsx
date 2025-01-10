@@ -1,7 +1,6 @@
 import React from 'react';
 import ReviewCard from '../layouts/ReviewCard.jsx';
 import review from '../assets/review.jpg'
-import CategoriesCard from "../layouts/CategoriesCard.jsx";
 
 
 const Review = () => {
