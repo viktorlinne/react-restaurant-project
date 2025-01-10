@@ -93,7 +93,7 @@ const Menu = () => {
                 </div>
 
 
-                <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
+                <h1 id="kebabrätter" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Kebabrätter
                 </h1>
 
