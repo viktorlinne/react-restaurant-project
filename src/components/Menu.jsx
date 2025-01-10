@@ -80,132 +80,153 @@ const Menu = () => {
                     Pizzor
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Pizza")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Pizza")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Kebabrätter
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4 w-full"}>
-
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Kebabrätter")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Kebabrätter")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
 
                 <h1 id="hamburgare" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Hamburgare
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Hamburgare")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Hamburgare")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="tex-mex" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Tex Mex
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Tex Mex")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                        })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Tex Mex")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="pastarätter" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Pastarätter
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Pastarätter")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                        })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Pastarätter")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="sallader" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Sallader
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Sallader")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Sallader")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="såser" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Såser
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Såser")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Såser")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="tillbehör" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Tillbehör
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Tillbehör")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Tillbehör")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
 
                 <h1 id="drycker" className={"text-4xl font-bold text-center lg:pt-8 pt-24 pb-10"}>
                     Drycker
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
-                    {menuItems.filter((menuItem, i) => menuItem.category === "Drycker")
-                        .map((menuItem, i) => {
-                            return <DishesCard key={i}
-                                               img={menuItem.img}
-                                               title={menuItem.title}
-                                               price={menuItem.price}/>
-                    })}
+                <div className={"flex flex-wrap gap-4 justify-center mt-4"}>
+                    {menuItems.filter((menuItem) => menuItem.category === "Drycker")
+                        .map((menuItem, i) => (
+                            <DishesCard
+                                key={i}
+                                img={menuItem.img}
+                                title={menuItem.title}
+                                price={menuItem.price}
+                            />
+                        ))}
                 </div>
+
             </div>
         </div>
     )
