@@ -18,7 +18,7 @@ function App() {
 
                         <div>
                             <div id={"home"}>
-                                <Home/>
+                                <Home />
                             </div>
 
                             <div id={"dishes"}>
