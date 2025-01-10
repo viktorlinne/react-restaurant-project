@@ -33,7 +33,7 @@ const Dishes = () => {
                 Vårat Utbud:
             </h1>
 
-            <div className={"flex flex-row flex-wrap gap-8 justify-center mt-4"}>
+            <div className={"flex flex-row flex-wrap gap-8 justify-center mt-4 w-full"}>
 
                 {categories.map((category, i) => {
                     return <CategoriesCard key={i} to={category.to} img={category.img} title={category.title}/>
