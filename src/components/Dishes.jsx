@@ -12,7 +12,6 @@ import dryckimg from "/src/assets/dryck.webp";
 
 
 const Dishes = () => {
-
     const categories = [
         {to: "pizzor", img: pizzaimg, title: "Pizzor"},
         {to: "kebabrätter", img: kebabimg, title: "Kebabrätter"},
@@ -23,26 +22,19 @@ const Dishes = () => {
         {to: "såser", img:såsimg, title: "Såser"},
         {to: "tillbehör", img:tillbehörimg , title: "Tillbehör"},
         {to: "drycker", img:dryckimg, title: "Drycker"},
-
-    ]
-
+    ];
     return (
-
         <div className={"flex flex-col justify-center items-center lg:px-32 px-5"}>
-
             <h1 id="menu" className={"text-4xl font-semibold text-center pt-16 pb-10"}>
                 Vårat Utbud:
             </h1>
-
             <div className={"flex flex-row flex-wrap gap-8 justify-center mt-4 w-full"}>
-
                 {categories.map((category, i) => {
                     return <CategoriesCard key={i} to={category.to} img={category.img} title={category.title}/>
                 })}
-
             </div>
         </div>
-    )
+    );
 };
 
 export default Dishes;
