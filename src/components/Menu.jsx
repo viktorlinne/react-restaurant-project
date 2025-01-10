@@ -92,7 +92,7 @@ const Menu = () => {
                     Kebabrätter
                 </h1>
 
-                <div className={"flex flex-wrap gap-8 justify-center mt-4"}>
+                <div className={"flex flex-wrap gap-8 justify-center mt-4 w-full"}>
 
                     {menuItems.filter((menuItem, i) => menuItem.category === "Kebabrätter")
                         .map((menuItem, i) => {
