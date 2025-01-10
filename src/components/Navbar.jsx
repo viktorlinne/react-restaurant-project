@@ -22,7 +22,8 @@ const Navbar = () => {
 
         <div className="fixed w-full ">
             <div>
-                <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-nav shadow-[0_3px_10px_rgba(0,0,0,0.2)]">
+                <div
+                    className="flex flex-row justify-between p-5 md:px-32 px-5 bg-nav shadow-[0_3px_10px_rgba(0,0,0,0.2)]">
                     <div className="flex flex-row items-center cursor-pointer">
 
                         <span>
@@ -33,7 +34,8 @@ const Navbar = () => {
                               spy={true}
                               smooth={true}
                               duration={500}>
-                          <h1 className="text-xl font-semibold hover:text-button transition-all cursor-pointer">La Mamas</h1>
+                            <h1 className="text-xl font-semibold hover:text-button transition-all cursor-pointer">La
+                                Mamas</h1>
                         </Link>
 
                     </div>
@@ -171,8 +173,8 @@ const Navbar = () => {
 
                     </div>
                 </div>
-                <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-black 
-                                           text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full 
+                <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-nav 
+                                           text-black left-0 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full 
                                            h-fit transition-transform duration-300`}>
 
 
